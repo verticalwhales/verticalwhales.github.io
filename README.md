@@ -9,4 +9,4 @@ To bring down the local server:
 
 `ctrl + c`
 
-
+[Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
