@@ -4,8 +4,19 @@ title:  "The House"
 date:   2022-06-15
 categories: stories
 ---
+<html>
+<head>
+<style>
+p {
+  color: purple;
+  font-family: courier;
+  font-size: 90%;
+}
+</style>
+</head>
+<body>
 
-I originally grew up in a three-story house in Philadelphia and slept in half of the attic. My sister’s room was the other half. Sometimes we would knock on the dividing wall to each other. We had no idea what the other was trying to communicate but we’d giggle nonetheless until our mother would walk up the steep steps and tell us to go to bed.
+<p>I originally grew up in a three-story house in Philadelphia and slept in half of the attic. My sister’s room was the other half. Sometimes we would knock on the dividing wall to each other. We had no idea what the other was trying to communicate but we’d giggle nonetheless until our mother would walk up the steep steps and tell us to go to bed.
 
 The house, being over 100 years old, had its quirks for sure. I ended up taping glow-in-the-dark stars on the non-creaky floorboards as markers indicating where it was safe to step in the night and not wake up my parents who slept in the room below.
 
@@ -22,4 +33,4 @@ I’d usually just follow her down since it was more enjoyable to eat with the f
 to finish my homework and then would doodle the night away or find ways to download music. I’d stay on the computer until 10pm, when my father would turn off the internet. Partly to communicate to my sister and me to go to bed, but mostly to save a little on electricity.
 
 ![Box](https://user-images.githubusercontent.com/84204476/173957637-a0b2e026-3253-4dec-9e60-9db5f6f575ba.jpg)
-Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. Simple Pleasures.
+Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. Simple Pleasures.<p>
