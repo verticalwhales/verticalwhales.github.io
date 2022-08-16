@@ -10,3 +10,11 @@ p {outline-color:rgb(45, 26, 24);}
 p.double {
     outline-style: double;
 }
+
+h1 {
+    text-align: center;
+  }
+
+h1 {
+  text-shadow: 2px 2px rgb(34, 221, 53);
+}

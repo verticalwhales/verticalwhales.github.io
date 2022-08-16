@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-  </ul>
-<button type="button" class="btn btn-outline-dark"><a href="url">Drawings</a></button>
-<button type="button" class="btn btn-outline-dark"><a href="url">Photagraphy</a></button>
-<button type="button" class="btn btn-outline-dark"><a href="url">Writings</a></button>
+<head>
+  <h1>
+    <button type="button" class="btn btn-outline-dark"><a href="drawing.html">Drawings</a></button>
+    <button type="button" class="btn btn-outline-dark"><a href="photography.html">Photagraphy</a></button>
+    <button type="button" class="btn btn-outline-dark"><a href="writings.html">Writings</a></button>
+    </h1>
+
+    <div class="container">
+
+      <img src="/images/bun_bun.jpg" alt="bun" width="1300">
+    </div>
+</head>
