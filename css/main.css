@@ -1,7 +1,12 @@
 body {
-    background-color: rgb(219, 150, 14);
+    background-color: rgb(255, 170, 0);
 }
 
 .purpleText{
     color:rgb(147, 10, 79)
+}
+
+p {outline-color:rgb(149, 213, 245);}
+p.double {
+    outline-style: double;
 }
