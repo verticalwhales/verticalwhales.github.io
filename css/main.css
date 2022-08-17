@@ -17,5 +17,19 @@ body {
 
 h1 {
     text-align: center;
-    border:rgb(45, 26, 24) rounded-end"
+    border:rgb(45, 26, 24) "rounded-end";
+}
+
+.resumeHeader {
+    padding: 10px border;
+    border-radius: 10px;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2px;
+}
+
+.bunPic {
+    margin-top: 30px;
+    border-radius: 40px;
 }

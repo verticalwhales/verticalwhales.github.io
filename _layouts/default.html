@@ -11,14 +11,16 @@
     </head>
     <body>
         <div class="container">
-            <a href="index.html"><h1 class="purpleText">Part Fish, part</h1></a>
+            <a href="/"><h1>Part Fish, part</h1></a>
 
-            <div class="topButtons" style="padding: 10px">
-                <button type="button" class="btn btn-outline-dark"><a href="drawing.html">Drawings</a></button>
-                <button type="button" class="btn btn-outline-dark"><a href="photography.html">Photagraphy</a></button>
-                <button type="button" class="btn btn-outline-dark"><a href="writings.html">Writings</a></button>
-                <button type="button" class="btn btn-outline-dark"><a href="resume.html">Resume</a></button>
-            </div>
+            <nav class="navbar sticky-top bg-light">
+                <div class="container-fluid">
+                    <a href="/drawing.html">Drawings</a>
+                    <a href="/photography.html">Photography</a>
+                    <a href="/writings.html">Writings</a>
+                    <a href="/resume.html">Resume</a>
+                </div>
+            </nav>
 
             {{ content }}
         </div>
