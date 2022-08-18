@@ -65,12 +65,6 @@ h1 {
     border-radius: 40px;
 }
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -106,16 +100,16 @@ body {
   border: none;
   outline: none;
   padding: 10px 16px;
-  background-color: #f1f1f1;
+  background-color: #ffb300;
   cursor: pointer;
   font-size: 18px;
 }
 
 .btn:hover {
-  background-color: #ddd;
+  background-color: rgb(12, 226, 158);
 }
 
 .btn.active {
-  background-color: #666;
-  color: white;
+  background-color: rgb(91, 6, 43);
+  color: #ffb300;
 }
