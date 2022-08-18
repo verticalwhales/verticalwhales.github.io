@@ -6,9 +6,10 @@ body {
     color:rgb(17, 1, 9);
 }
 
-.double {
-    outline-style: double;
-    outline-color:rgb(45, 26, 24);
+.photoOrg {
+    outline-style: solid;
+    outline-color:rgb(0, 0, 0);
+    box-sizing: border-box;
 }
 
 .topButtons {
@@ -29,7 +30,92 @@ h1 {
     padding-bottom: 2px;
 }
 
+.WrittenWords {
+  padding: 10px border;
+  border-radius: 10px;
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-bottom: 2px;
+}
+
+.doodles {
+  padding: 10px border;
+  border-radius: 10px;
+  max-width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-bottom: 2px;
+}
+
+.photography {
+  padding: 10px border;
+  border-radius: 10px;
+  max-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-bottom: 2px;
+}
+
 .bunPic {
     margin-top: 30px;
     border-radius: 40px;
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
 }
