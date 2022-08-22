@@ -11,19 +11,29 @@
     </head>
     <body>
         <div class="container">
-            <a href="/"><h1>Part Fish, part</h1></a>
+            <a href="index.html"><h1 class="purpleText">Part Fish, part</h1></a>
 
-            <nav class="navbar sticky-top bg-light">
-                <div class="container-fluid">
-                    <a href="/drawing.html">Drawings</a>
-                    <a href="/photography.html">Photography</a>
-                    <a href="/writings.html">Writings</a>
-                    <a href="/resume.html">Resume</a>
-                </div>
-            </nav>
+            <div class="header, " id="myHeader">
+                <button class="btn"><a href="drawing.html">Drawings</a></button>
+                <button class="btn"><a href="photography.html">Photagraphy</a></button>
+                <button class="btn"><a href="writings.html">Writings</a></button>
+                <button class="btn"><a href="resume.html">Resume</a></button>
+                <button class="btn"><a href="about.html">About</a></button>
+            </div>
 
             {{ content }}
         </div>
+        <script>
+        var header = document.getElementById("myHeader");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
         
         
         <!-- Bootstrap bundle scripts -->
