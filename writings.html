@@ -2,22 +2,22 @@
 layout: default
 ---
 
-  <ul>
+  <ul id="postsList">
     {% for post in site.posts %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+          <div class="flipper">
+            <div class="front">
+              <img src="/images/{{ post.featurePhoto }}" style="width:50%">
+            </div>
+            <div class="back">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+          </div>
+        </div>
+        
       </li>
     {% endfor %}
   </ul>
 </html>
 
-<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-	<div class="flipper">
-		<div class="front">
-			<img src="/images/poppies.jpg" style="width:50%">
-		</div>
-		<div class="back">
-			
-		</div>
-	</div>
-</div>

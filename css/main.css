@@ -204,3 +204,7 @@ body {
 .back {
 	transform: rotateY(180deg);
 }
+
+#postsList {
+  list-style: none;
+}
