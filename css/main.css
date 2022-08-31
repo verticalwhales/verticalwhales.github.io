@@ -203,6 +203,11 @@ body {
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
+  background-color: #F8B195;
+  text-color: #355C7D;
+  width: 300px;
+  height:300px;
+  border-radius: 50%;
 }
 
 #postsList {
@@ -210,6 +215,7 @@ body {
 }
 
 .writings{
+  float: left;
   width: 300px;
   height:300px;
   border-radius: 50%;
