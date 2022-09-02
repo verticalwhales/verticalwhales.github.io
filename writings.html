@@ -5,17 +5,18 @@ layout: default
   <ul id="postsList">
     {% for post in site.posts %}
       <li>
-        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-          <div class="flipper">
-            <div class="front">
-              <img src="/images/{{ post.featurePhoto }}" class="writings">
-            </div>
-            <div class="back">
-              <a  href="{{ post.url }}" class="align-text: center">{{ post.title }}</a>
+        <li style="display: table-header-group;">
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <img src="/images/{{ post.featurePhoto }}" class="writings">
+              </div>
+              <div class="back">
+                <a  href="{{ post.url }}">{{ post.title }}</a>
+              </div>
             </div>
           </div>
-        </div>
-
+        </li>
       </li>
     {% endfor %}
   </ul>
