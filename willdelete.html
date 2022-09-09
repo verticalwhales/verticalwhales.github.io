@@ -1,0 +1,153 @@
+<!--- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <title>freeCodeCamp Survey Form</title>
+      <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description" style="text-align:center"><i>Thank you for taking the time to help us improve the platform</i></p>
+ 
+   <fieldset>
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label"> Name </label>
+            <div><input id="name" type="text" required placeholder="Enter your name" class="form-control"/>
+            </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="email" id="email-label"> Email </label>
+            <input id="email" type="email" required placeholder="Enter your Email" class="form-control"/>
+        </div>
+
+        <div class="form-group">
+          <label for="age" id="number-label"> Age <span class="clue">(optional)</span></label> 
+            <input id="age" type="number" min="10" max="99" placeholder="Age" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="role" id="role-label"> Which option best describes your current role? </label>
+            <select id="dropdown" name="role" class="form-control">
+              <option disabled select value>Select an option</option>
+              <option value="1">Student</option>
+              <option value="2">Full Time Job</option>
+              <option value="3">Full Time Learner</option>
+              <option value="4">Prefer Not to Say</option>
+              <option value="5">Other</option>
+            </select>
+        </div>
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label for="totally"><input id="totally" type="radio" name="recommend"> Totaly</label>
+            <label for="duh"><input id="duh" type="radio" name="recommend"> Duh</label>
+            <label for="trippleduh"><input id="trippleduh" type="radio" name="recommend"> Tripple Duh</label>
+        <div><br>
+
+          <p>What would you like to see improved? <span class="clue">(Check all that apply)</span></p>
+            <label>
+              <input type="checkbox" value="more-dogs" class="input-checkbox">
+              More dogs
+            </label>
+            <label>
+              <input type="checkbox" value="more-dogs" class="input-checkbox">
+              Not enough dogs
+            </label>
+            <label>
+              <input type="checkbox" value="more-dogs" class="input-checkbox">
+              Too few dogs
+            </label>
+            <label>
+              <input type="checkbox" value="more-dogs" class="input-checkbox">
+              Underwhelming amount of dogs
+            </label>
+        </div><br>
+              
+        <div>
+          <label>Any thoughts on the ol' noggin?</label>
+            <textarea id="comments" name="comments" class="text-control" placeholder="Enter your comment here..."></textarea>
+        </div>
+    </fieldset>
+  </body>
+<html>
+css
+p {
+  padding: 5px;
+}
+
+h1{
+  margin-top: 60px;
+  text-align: center;
+}
+
+fieldset{
+  text-align: left;
+  border: none;
+  padding: 2rem 0;
+  background-color: rgb(38,38,68);
+  color: white;
+  border-radius: 4px;
+}
+
+body{
+    font-family: 'Poppins' sans-serif;
+}
+
+fieldset{
+  align: center;
+  width: 60vw;
+  max-width: 700px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+label{
+  display: flex;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  padding: 5px;
+}
+
+form {
+  padding-right: 40px;
+  padding-left: 40px
+}
+
+.form-control {
+display: block;
+width: 100%;
+height: 2.375rem;
+padding: 0.375rem 0.75rem;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.text-control {
+display: block;
+width: 100%;
+height: 9rem;
+padding: 0.375rem 0.75rem;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+recommend{
+  
+}
+
+.clue {
+margin-left: 0.25rem;
+font-size: 0.9rem;
+color: #e4e4e4;
+}
