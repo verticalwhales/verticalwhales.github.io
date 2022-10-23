@@ -10,22 +10,25 @@
         <link rel="stylesheet" type="text/css" href="/css/main.css">
     </head>
     <body>
-        <div class="container header">
-            <a class="butt1 btn clickHome" href="index.html"><h1>Use Your Blinker</h1></a>
-
-            <div class="header sticky" id="navbar">
-                    <ul>
-                        <a class="btn butt2" href="/drawing.html">Drawings</a>
-                        <a class="btn butt3" href="/photography.html">Photography</a>
-                        <a class="btn butt4" href="/writings.html">Writings</a>
-                        <a class="btn butt5" href="/resume.html">Resume</a>
-                        <a class="btn butt6" href="/about.html">About</a>
-                    </ul>
+        <div class="container">
+            <div class="header">
+                <a class="butt1 btn clickHome" href="index.html"><h1>Use Your Blinker</h1></a>
             </div>
-
+            <div id="nav" class="d-flex justify-content-center marble" >
+                <div id="navbar">
+                        <ul class="d-flex justify-content-center">
+                            <a class="btn butt2" href="/drawing.html">Drawings</a>
+                            <a class="btn butt3" href="/photography.html">Photography</a>
+                            <a class="btn butt4" href="/writings.html">Writings</a>
+                            <a class="btn butt5" href="/resume.html">Resume</a>
+                            <a class="btn butt6" href="/about.html">About</a>
+                        </ul>
+                </div>
+            </div>
+        </div>
 <!--MOTION FOR BUTTONS-->
             {{ content }}
-        </div>
+        
         <script>
         var header = document.getElementById("myHeader");
         var btns = header.getElementsByClassName("btn");
@@ -38,7 +41,7 @@
         }
         </script>
 
-<!--MOTION FOR NAV STICKY BAR-->
+<!--MOTION FOR NAV STICKY BAR--> 
         <script>
             window.onscroll = function() {myFunction()};
             
