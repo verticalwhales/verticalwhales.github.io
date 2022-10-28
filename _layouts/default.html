@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,22 +10,19 @@
         <link rel="stylesheet" type="text/css" href="/css/main.css">
     </head>
     <body>
-        <div class="container">
-            <div class="header">
-                <a class="butt1 btn clickHome" href="index.html"><h1>Use Your Blinker</h1></a>
-            </div>
-            <div id="nav" class="d-flex justify-content-center marble" >
+        <header class="header">
+            <a class="butt1 btn clickHome" href="index.html"><h1>Use Your Blinker</h1></a>
+            
                 <div id="navbar">
-                        <ul class="d-flex justify-content-center">
-                            <a class="btn butt2" href="/drawing.html">Drawings</a>
-                            <a class="btn butt3" href="/photography.html">Photography</a>
-                            <a class="btn butt4" href="/writings.html">Writings</a>
-                            <a class="btn butt5" href="/resume.html">Resume</a>
-                            <a class="btn butt6" href="/about.html">About</a>
-                        </ul>
+                    <a class="btn butt2" href="/drawing.html">Drawings</a>
+                    <a class="btn butt3" href="/photography.html">Photography</a>
+                    <a class="btn butt4" href="/writings.html">Writings</a>
+                    <a class="btn butt5" href="/resume.html">Resume</a>
+                    <a class="btn butt6" href="/about.html">About</a>
                 </div>
-            </div>
-        </div>
+            
+        </header>
+
 <!--MOTION FOR BUTTONS-->
             {{ content }}
         
@@ -42,24 +39,22 @@
         </script>
 
 <!--MOTION FOR NAV STICKY BAR--> 
-        <script>
-            window.onscroll = function() {myFunction()};
-            
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-              } else {
-                navbar.classList.remove("sticky");
-              }
-            }
-            </script>
-     
-        <main class="content" role="main">
-        </main>
-      
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+
+
 <!--FOOTER-->
 
         <footer class="fixed_footer">       

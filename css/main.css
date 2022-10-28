@@ -23,10 +23,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.topButtons {
-    text-align: center;
-}
-
 /*LANDING PAGE*/
 .bunPic {
   margin: auto;
@@ -39,12 +35,25 @@ body {
   padding: 30px;
   text-align: center;
   height: 150px;
+  margin: 0px;
 }
 
 #navbar {
-  overflow: hidden;
   background-color: var(--background-color);
-  width: 100%;
+}
+
+#navbar a {
+float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.content {
+  padding: 16px;
 }
 
 .sticky {
@@ -53,8 +62,8 @@ body {
   width: 100%;
 }
 
-div#navbar.sticky {
-  background-color: var(--background-color);
+.sticky + .content {
+  padding-top: 60px;
 }
 
 /* EVERYPAGE */
@@ -66,7 +75,7 @@ div#navbar.sticky {
   cursor: pointer;
   font-size: 18px;
   transition-duration: 0.3s;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .termsFooterButton{
@@ -292,3 +301,5 @@ p {
   border-style: solid;
   position: relative;
 }
+
+
