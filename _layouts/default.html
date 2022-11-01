@@ -12,16 +12,16 @@
     <body>
         <header class="header">
             <a class="butt1 btn clickHome" href="index.html"><h1>Use Your Blinker</h1></a>
-            
-                <div id="navbar">
-                    <a class="btn butt2" href="/drawing.html">Drawings</a>
-                    <a class="btn butt3" href="/photography.html">Photography</a>
-                    <a class="btn butt4" href="/writings.html">Writings</a>
-                    <a class="btn butt5" href="/resume.html">Resume</a>
-                    <a class="btn butt6" href="/about.html">About</a>
-                </div>
-            
-        </header>
+                <nav id="navbar">
+                    <div>
+                        <a class="btn butt2" href="/drawing.html">Drawings</a>
+                        <a class="btn butt3" href="/photography.html">Photography</a>
+                        <a class="btn butt4" href="/writings.html">Writings</a>
+                        <a class="btn butt5" href="/resume.html">Resume</a>
+                        <a class="btn butt6" href="/about.html">About</a>
+                    </div> 
+                </nav>
+        </header> 
 
 <!--MOTION FOR BUTTONS-->
             {{ content }}
@@ -54,10 +54,11 @@
     }
     </script>
 
-
+ 
+ 
 <!--FOOTER-->
 
-        <footer class="fixed_footer">       
+        <footer class="footer">       
             <div class="content container row">
                 <div class="col">
                     <img src="/images/home.png" alt="home" class="img-fluid photoForFooter">
@@ -66,7 +67,7 @@
                     <p class="padding-top: -20px">I caught a cat yesterday.</p>
                 </div>
                 <div class="col">
-                    <p class="padding-top: -20px">I caught a cat yesterday.</p>
+                    <p class="padding-top: -20px">I put them in a pot.</p>
                 </div>
                 <div class="col d-flex align-items-center">
                     <a class="btn butt3 termsFooterButton" href="terms.html">Terms of Service</a>
@@ -74,7 +75,7 @@
             </div>
         </footer>
 
-
+    
  <!-- Bootstrap bundle scripts -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>

@@ -32,7 +32,7 @@ body {
 
 /*NAVBAR*/
 .header {
-  padding: 30px;
+  padding-top: 30px;
   text-align: center;
   height: 150px;
   margin: 0px;
@@ -40,16 +40,16 @@ body {
 
 #navbar {
   background-color: var(--background-color);
+  z-index: 100;
+  padding-left: 500px;
 }
 
 #navbar a {
-float: left;
+float:left;
   display: block;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  
 }
 
 .content {
@@ -78,6 +78,10 @@ float: left;
   margin-bottom: 0px;
 }
 
+.btn {
+  border: none;
+}
+
 .termsFooterButton{
  background-color: var(--title-color);
  float: right;
@@ -86,6 +90,7 @@ float: left;
 .butt1:hover{
  background-color: var(--title-color);
  color: var(--title-color-text);
+ 
 }
 
 .butt2:hover{
@@ -107,7 +112,7 @@ float: left;
 .butt6:hover{
  background-color: var(--theme-5);
  color: var(--theme-1);
-}
+} */
 
 /* BUTTON STYLE*/
 .btn {
@@ -120,22 +125,22 @@ float: left;
   font-size: 18px;
   transition-duration: 0.3s;
   display: inline-block;
-}
+} 
 
 /*ABOUT*/
 .andy{
    float: right;
-   margin-top: 20px;
+   margin-top: 60px;
    max-height: 600px;
    border-radius: 40px;
+   margin-right: 60px;
 }
 
 .aboutText{
   position: relative;
-  margin-left: 40px;
-  margin-right: 650px;
+  margin: 60px 750px 60px 60px;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   border-style: none;
   background-color: var(--theme-1);
   color: var(--pandas);
@@ -147,8 +152,7 @@ float: left;
 /*RESUME*/
 .resumeText{
   position: relative;
-  margin-left: 40px;
-  margin-right: 700px;
+  margin: 60px 920px 60px 60px;
   text-align: left;
   font-size: 18px;
   border-style: none;
@@ -159,10 +163,11 @@ float: left;
   font-family:Arial, Helvetica, sans-serif;
 }
 
-.eni, .terms {
+.eni {
   float: right;
-  margin-top: 20px;
-  max-height: 900px;
+  margin-top: 60px;
+  margin-right: 60px;
+  max-height: 1100px;
   border-radius: 40px;
 }
 
@@ -171,8 +176,7 @@ float: left;
 
 .termsText{
   position: relative;
-  margin-left: 10px;
-  margin-right: 700px;
+  margin: 60px 900px 60px 60px;
   text-align: left;
   font-size: 18px;
   border-style: none;
@@ -181,6 +185,14 @@ float: left;
   padding: 40px;
   border-radius: 40px;
   font-family:Arial, Helvetica, sans-serif;
+}
+
+.terms {
+  float: right;
+  margin-top: 60px;
+  margin-right: 60px;
+  max-height: 1000px;
+  border-radius: 40px;
 }
 
 /* DRAWING/PHOTOS*/
@@ -196,70 +208,11 @@ float: left;
 }
 
 /*POSTSs*/
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000px;
-}
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
-
-.flip-container, .front, .back {
-	width: 320px;
-	height: 480px;
-}
-
-/* flip speed goes here */
-.flipper {
-	transition: 1.2s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-#postsList {
-  list-style: none;
-}
 
 
 
-.row {
-   display: -ms-flexbox; /* IE 10 */
-   display: flex;
-   -ms-flex-wrap: wrap; /* IE 10 */
-   flex-wrap: wrap;
-   padding: 0 4px;
-}
 
 
-/* Create two equal columns that sits next to each other */
-
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
-  background-color: var(--theme-1);
-  width: 300px;
-  height:300px;
-  border-radius: 50%;
-}
 
 .writings{
   float: left;
@@ -284,22 +237,17 @@ p {
 
 /*FOOTER*/
 
-.fixed_footer {
+.footer {
   width: 100%;
   height: 200px;
   background: var(--title-color);
-  position: fixed; left: 10; bottom: 0;
   z-index: -100;
+  padding: 0 ;
+  line-height: 50px;
+  bottom: 0;
 }
 
 .photoForFooter {
   width: 11rem;
   float: left;
 }
-
-.boobs{
-  border-style: solid;
-  position: relative;
-}
-
-
