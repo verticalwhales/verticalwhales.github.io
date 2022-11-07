@@ -238,7 +238,6 @@ p {
 /* WRITINGS */
 
 .posts_one, .posts_two{
-  border: 6px solid;
   padding: 0px;
   margin: 10px;
   background-color: var(--background-color);
@@ -254,32 +253,42 @@ p {
 .posts_one_one:hover {
   background-color: var(--title-color);
   color: var(--title-color-text);
-  width: 300px;
+  border: 6px solid;
   transition-duration: 1s;
+  border: 20px solid;
+  
 }
 
 .posts_one_two:hover {
   background-color: var(--theme-1);
   color: var(--theme-5);
   transition-duration: 1s;
+  border: 6px solid;
+  border: 20px solid;
+  font-size: 20px;
 }
 
 .posts_two_one:hover {
   background-color: var(--theme-2);
   color: var(--theme-4);
   transition-duration: 1s;
+  border: 6px solid;
+  border: 20px solid;
 }
 
 .posts_two_two:hover {
   background-color: var(--theme-3);
   color: var(--theme-2-1);
   transition-duration: 1s;
+  border: 6px solid;
+  border: 20px solid;
 }
 
 .posts_two_three:hover {
   background-color: var(--theme-4);
   color: var(--theme-2);
   transition-duration: 1s;
+  border: 20px solid;
 }
 
 
