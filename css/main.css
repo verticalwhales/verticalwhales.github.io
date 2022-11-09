@@ -20,7 +20,7 @@ html {
 body {
     background-color: var(--background-color);
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 html, body{background: var(--background-color);}
@@ -38,6 +38,7 @@ html, body{background: var(--background-color);}
   text-align: center;
   height: 150px;
   margin: 0px;
+  font-family: moonblossom, sans-serif;
 }
 
 #navbar {
@@ -47,11 +48,12 @@ html, body{background: var(--background-color);}
 }
 
 #navbar a {
-float:left;
+  float:left;
   display: block;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family:  chainprinter, sans-serif;
 }
 
 .content {
@@ -92,7 +94,6 @@ float:left;
 .butt1:hover{
  background-color: var(--title-color);
  color: var(--title-color-text);
- 
 }
 
 .butt2:hover{
@@ -148,7 +149,7 @@ float:left;
   color: var(--pandas);
   padding: 40px;
   border-radius: 40px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: apparat, sans-serif;
 }
 
 /*RESUME*/
@@ -162,7 +163,7 @@ float:left;
   color: var(--title-color-text);
   padding: 40px;
   border-radius: 40px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: apparat, sans-serif;
 }
 
 .eni {
@@ -186,7 +187,7 @@ float:left;
   color: var(--theme-2-1);
   padding: 40px;
   border-radius: 40px;
-  font-family:Arial, Helvetica, sans-serif;
+  
 }
 
 .terms {
@@ -224,71 +225,109 @@ float:left;
 .size {
   font-size: 1.75em;
 }
+
 .content {
   margin: auto;
   margin-bottom: 350px; /* Same height as footer */
   padding: 15px 0;
 }
 
-p {
+#info {
   font-size: .75em;
   padding:0 0 10px 0;
+  font-family: calder-grit-shadow, sans-serif;
 }
 
 /* WRITINGS */
-
 .posts_one, .posts_two{
-  padding: 0px;
-  margin: 10px;
+  padding: 10px;
+  margin: 35px 40px;
   background-color: var(--background-color);
+  font-family: calder-grit-shadow, sans-serif;
+  text-align: center;
 }
 
 .writting_padding {
-  width: 100%;
-  height: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+
+  padding: 50px 0px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .posts_one_one:hover {
   background-color: var(--title-color);
   color: var(--title-color-text);
-  border: 6px solid;
   transition-duration: 1s;
-  border: 20px solid;
-  
+  border: 10px solid;
+  border-radius: 20px 100px;
+  padding-top: 20px;
+}
+
+.posts_one_one:not(:hover) {
+  background-color: var(--background-color);
+  border: 20px solid var(--background-color);
+  transition-duration: 2s;
+
 }
 
 .posts_one_two:hover {
   background-color: var(--theme-1);
   color: var(--theme-5);
   transition-duration: 1s;
-  border: 6px solid;
-  border: 20px solid;
-  font-size: 20px;
+  border-radius: 100px 20px;
+  border: 10px solid;
+  padding-top: 20px;
+}
+
+.posts_one_two:not(:hover) {
+  background-color: var(--background-color);
+  border: 20px solid var(--background-color);;
+  transition-duration: 2s;
 }
 
 .posts_two_one:hover {
   background-color: var(--theme-2);
   color: var(--theme-4);
   transition-duration: 1s;
-  border: 6px solid;
-  border: 20px solid;
+  border-radius: 20px 100px;
+  border: 10px solid;
+  padding-top: 20px;
+}
+
+.posts_two_one:not(:hover) {
+  background-color: var(--background-color);
+  border: 20px solid var(--background-color);;
+  transition-duration: 2s;
 }
 
 .posts_two_two:hover {
   background-color: var(--theme-3);
   color: var(--theme-2-1);
   transition-duration: 1s;
-  border: 6px solid;
-  border: 20px solid;
+  border-radius: 110px 110px 20px 20px;
+  border: 10px solid;
+  padding-top: 20px;
+}
+
+.posts_two_two:not(:hover) {
+  background-color: var(--background-color);
+  border: 20px solid var(--background-color);;
+  transition-duration: 2s;
 }
 
 .posts_two_three:hover {
   background-color: var(--theme-4);
   color: var(--theme-2);
   transition-duration: 1s;
-  border: 20px solid;
+  border: 10px solid;
+  border-radius: 100px 20px;
+  padding-top: 20px;
+}
+
+.posts_two_three:not(:hover) {
+  background-color: var(--background-color);
+  border: 20px solid var(--background-color);;
+  transition-duration: 2s;
 }
 
 
@@ -303,6 +342,7 @@ p {
   padding: 0 ;
   line-height: 50px;
   bottom: 0;
+  font-family: apparat, sans-serif;
 }
 
 .photoForFooter {
