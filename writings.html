@@ -3,32 +3,37 @@ layout: default
 ---
 <html>
 
-  <div class="container text-center">
-    <div class="row">
-      <div class="col posts_one posts_one_one">
-        <a class="btn writting_padding" target="_blank" href="">The House</a>
+
+  <ul>
+    {% for post in site.posts %}
+    <div class="container text-center">
+      <div class="row">
+        <div class="col posts_one posts_one_one">
+          <a class="btn writting_padding" href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+        <div class="col posts_one posts_one_two">
+          <a class="btn writting_padding" href="{{ post.url }}">{{ post.title }}</a></li>
+        </div>
       </div>
-      <div class="col posts_one posts_one_two">
-        <a class="btn writting_padding" href="">The House</a>
+      <div class="row">
+        <div class="col posts_two posts_two_one">
+          <a class="btn writting_padding" href=""></a>
+        </div>
+        <div class="col posts_two posts_two_two">
+          <a class="btn writting_padding" href=""></a>
+        </div>
+        <div class="col posts_two posts_two_three">
+          <a class="btn writting_padding" href=""></a>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col posts_two posts_two_one">
-        <a class="btn writting_padding" href="">The House</a>
-      </div>
-      <div class="col posts_two posts_two_two">
-        <a class="btn writting_padding" href="">The House</a>
-      </div>
-      <div class="col posts_two posts_two_three">
-        <a class="btn writting_padding" href="">The House</a>
-      </div>
-    </div>
-  </div>
+    {% endfor %}
+  </ul>
 
  <!-- <div class="container text-center">
     <div class="row">
       <div class="col posts_one posts_one_one">
-        <a class="btn writting_padding" target="_blank" href="">The House</a>
+        <a class="btn writting_padding" href="">The House</a>
       </div>
       <div class="col posts_one posts_one_two">
         <a class="btn writting_padding" href="">The House</a>

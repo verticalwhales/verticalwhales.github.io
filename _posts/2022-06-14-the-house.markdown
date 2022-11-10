@@ -9,11 +9,11 @@ I originally grew up in a three-story house in Philadelphia and slept in half of
 
 The house, being over 100 years old, had its quirks for sure. I ended up taping glow-in-the-dark stars on the non-creaky floorboards as markers indicating where it was safe to step in the night and not wake up my parents who slept in the room below.
 
-![stand](https://user-images.githubusercontent.com/84204476/173957154-233d5b92-788e-499f-b993-8aa50ea2fdb9.jpg)
+<img src="/images/desert.jpg" alt="small dead flower in the desert" class="img-fluid" class="post_img" id="first">
 
 I always imagined moving a bookshelf and finding a door that was just my size. I’d turn the nob, push the door open, and step into a secret world… In reality, I’d probably just get stuck in between the walls and find the mice that evaded my father’s traps. Even with his special secret bait, Tootsie rolls.
 
-![House](https://user-images.githubusercontent.com/84204476/173957267-15293a31-7a64-42e6-8f16-2fb350e8aa97.jpg)
+<img src="/images/house.jpg" alt=" a three story house in the show at night" class="img-fluid" class="post_img">
 
 On no Saturday in particular, you could smell pancakes being made from the kitchen. If you waited long enough, you could hear my mother walking up the steps to hand-deliver them with syrup already applied. She’d say “if you want more, you know where to find them”.
 
@@ -21,5 +21,6 @@ I’d usually just follow her down since it was more enjoyable to eat with the f
 
 to finish my homework and then would doodle the night away or find ways to download music. I’d stay on the computer until 10pm, when my father would turn off the internet. Partly to communicate to my sister and me to go to bed, but mostly to save a little on electricity.
 
-![Box](https://user-images.githubusercontent.com/84204476/173957637-a0b2e026-3253-4dec-9e60-9db5f6f575ba.jpg)
+<img src="/images/sister.jpg" alt="two children in a charboard box" class="img-fluid" class="post_img">
+
 Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. Simple Pleasures.
