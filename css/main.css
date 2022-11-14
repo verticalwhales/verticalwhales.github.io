@@ -19,8 +19,10 @@ html {
 
 body {
     background-color: var(--background-color);
-    margin: 0;
-    
+    /* max-width: 900px; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
 }
 
 html, body{background: var(--background-color);}
@@ -34,26 +36,21 @@ html, body{background: var(--background-color);}
 
 /*NAVBAR*/
 .header {
-  padding-top: 30px;
   text-align: center;
-  height: 150px;
   margin: 0px;
   font-family: moonblossom, sans-serif;
 }
 
 #navbar {
-  background-color: var(--background-color);
+  background-color: var(--theme-2 );
   z-index: 100;
-  padding-left: 500px;
 }
 
 #navbar a {
-  float:left;
   display: block;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family:  chainprinter, sans-serif;
+  font-family: chainprinter, sans-serif;
 }
 
 .content {
@@ -66,20 +63,52 @@ html, body{background: var(--background-color);}
   width: 100%;
 }
 
-.sticky + .content {
+/* .sticky + .content {
   padding-top: 60px;
+} */
+
+#logo {
+  max-width: 50px;
 }
+
+
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flexSpaceAround {
+  justify-content: space-around;
+}
+.subContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.col {
+  width: 32%;
+  border: 1px solid #777777;
+  border-radius: 8px;
+  background: white;
+  padding: 20px;
+}
+
+.test {
+  padding: 40px 300px;
+  text-align: left;
+}
+
 
 /* EVERYPAGE */
 
 .home_btn.clickHome {
-  padding: 10px 16px;
+  padding: 10px;
   background-color: var(--background-color);
   color: var(--nav-text);
   cursor: pointer;
   font-size: 18px;
   transition-duration: 0.3s;
-  margin-bottom: 0px;
+  margin: 30px;
 }
 
 .btn {
@@ -332,22 +361,27 @@ html, body{background: var(--background-color);}
 /* POSTS LAYOUT */
 
 #toast {
-  padding: 30px 250px;
-  padding-top: 50px;
   font-family: apparat, sans-serif;
   font-size: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #first_a {
   border-radius: 10px;
-  float: right;
-  width: 100%;
+  width: 50%;
 }
 
 #second_a {
-  float: left;
   border-radius: 10px;
-  width: 400px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+#third_a {
+  border-radius: 10px;
+  width: 800px;
+  margin: 10px 0px;
 }
 
 h2 {

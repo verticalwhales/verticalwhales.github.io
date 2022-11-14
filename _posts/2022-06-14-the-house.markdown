@@ -3,55 +3,44 @@ layout: post
 title:  "The House"
 date:   2022-06-15
 categories: stories
-featurePhoto: "poppies.jpg"
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <h2>The House</h2><br>
-        <p>I originally grew up in a three-story house in Philadelphia and slept in half of the attic. My sister’s room was the other half. Sometimes we would knock on the dividing wall to each other. We had no idea what the other was trying to communicate but we’d giggle nonetheless until our mother would walk up the steep steps and tell us to go to bed.<br><br>The house, being over 100 years old, had its quirks for sure. I ended up taping glow-in-the-dark stars on the non-creaky floorboards as markers indicating where it was safe to step in the night and not wake up my parents who slept in the room below.</p>
-    </div>
-    <div class="col">
-      <img src="/images/desert.jpg" alt="small dead flower in the desert" class="img-fluid" class="post_img" id="first_a">
-    </div>
+
+<div class="row">
+  <div class="col-md-6">
+    <h2>The House</h2><br>
+      <p>I originally grew up in a three-story house in Philadelphia and slept in half of the attic. My sister’s room was the other half. Sometimes we would knock on the dividing wall to each other. We had no idea what the other was trying to communicate but we’d giggle nonetheless until our mother would walk up the steep steps and tell us to go to bed.<br><br>The house, being over 100 years old, had its quirks for sure. I ended up taping glow-in-the-dark stars on the non-creaky floorboards as markers indicating where it was safe to step in the night and not wake up my parents who slept in the room below.</p>
   </div>
-  <div class="row">
-    <div class="col">
-    <img src="/images/house.jpg" alt=" a three story house in the show at night" class="img-fluid" id="second_a">
-    </div>
-    <div class="col">
-    I originally grew up in a three-story house in Philadelphia and slept in half of the attic. My sister’s room was the other half. Sometimes we would knock on the dividing wall to each other. We had no idea what the other was trying to communicate but we’d giggle nonetheless until our mother would walk up the steep steps and tell us to go to bed.
-    </div>
+  <div class="col-md-6">
+    <img src="/images/desert.jpg" alt="small dead flower in the desert" class="img-fluid" id="first_a">
   </div>
-<div>   
-
-
-
-
-
-
-
-
-
-
-
-            I originally grew up in a three-story house in Philadelphia and slept in half of the attic. My sister’s room was the other half. Sometimes we would knock on the dividing wall to each other. We had no idea what the other was trying to communicate but we’d giggle nonetheless until our mother would walk up the steep steps and tell us to go to bed.
-
-            The house, being over 100 years old, had its quirks for sure. I ended up taping glow-in-the-dark stars on the non-creaky floorboards as markers indicating where it was safe to step in the night and not wake up my parents who slept in the room below. 
-
-
-
-
-
+</div>
+<div class="row">
+  <div class="col-md-6">
+  <img src="/images/house.jpg" alt=" a three story house in the show at night" class="img-fluid" id="second_a">
+  </div>
+  <div class="col">
         I always imagined moving a bookshelf and finding a door that was just my size. I’d turn the nob, push the door open, and step into a secret world… In reality, I’d probably just get stuck in between the walls and find the mice that evaded my father’s traps. Even with his special secret bait, Tootsie rolls.
-
-
-
-On no Saturday in particular, you could smell pancakes being made from the kitchen. If you waited long enough, you could hear my mother walking up the steps to hand-deliver them with syrup already applied. She’d say “if you want more, you know where to find them”.
-
-I’d usually just follow her down since it was more enjoyable to eat with the family than alone unless I was watching a captivating show. After school, I would make myself a snack and run up to my room where I’d find the latest episode of Heroes or How I Met Your Mother. I’d spend as little time as necessary to finish my homework and then would doodle the night away or find ways to download music. I’d stay on the computer until 10pm, when my father would turn off the internet. Partly to communicate to my sister and me to go to bed, but mostly to save a little on electricity.
-
-<img src="/images/sister.jpg" alt="two children in a charboard box" class="img-fluid" class="post_img">
-
-Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. Simple Pleasures.
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+        On no Saturday in particular, you could smell pancakes being made from the kitchen. If you waited long enough, you could hear my mother walking up the steps to hand-deliver them with syrup already applied. She’d say “if you want more, you know where to find them”.
+  </div>
+  <div class="col-md-6">
+        I’d usually just follow her down since it was more enjoyable to eat with the family than alone unless I was watching a captivating show. After school, I would make myself a snack and run up to my room where I’d find the latest episode of Heroes or How I Met Your Mother. I’d spend as little time as necessary
+  </div>
+  <div class="col-md-6">
+        to finish my homework and then would doodle the night away or find ways to download music. I’d stay on the computer until 10pm, when my father would turn off the internet. Partly to communicate to my sister and me to go to bed, but mostly to save a little on electricity.
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6"> 
+      <img src="/images/sister.jpg" alt="two children in a charboard box" class="img-fluid" id="third_a">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+        Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. Simple Pleasures.
+  </div>
+</div>

@@ -10,21 +10,42 @@
         <link rel="stylesheet" type="text/css" href="/css/main.css">
         <link rel="stylesheet" href="https://use.typekit.net/zny1plw.css">
 
+<!-- NAVBAR -->
+
+
 
     </head>
     <body>
-        <header class="header">
-            <a class="butt1 home_btn btn clickHome" href="index.html"><h1>Use Your Blinker</h1></a>
-                <nav id="navbar">
-                    <div>
-                        <a class="nav_btn btn butt2" href="/drawing.html">Drawings</a>
-                        <a class="nav_btn btn butt3" href="/photography.html">Photography</a>
-                        <a class="nav_btn btn butt4" href="/writings.html">Writings</a>
-                        <a class="nav_btn btn butt5" href="/resume.html">Resume</a>
-                        <a class="nav_btn btn butt6" href="/about.html">About</a>
-                    </div> 
-                </nav>
-        </header> 
+      <a class="butt1 home_btn btn clickHome header" href="index.html"><h1>Use Your Blinker</h1></a>
+      <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="/images/hexy.png" id="logo"></a>
+              <div class="mx-auto" style="width: 550px;">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link nav_btn btn butt2" href="/drawing.html">Drawings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav_btn btn butt3" href="/photography.html">Photography</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav_btn btn butt4" href="/writings.html">Writings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav_btn btn butt5" href="/resume.html">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav_btn btn butt6" href="/about.html">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          </div>
 
 <!--MOTION FOR BUTTONS-->
             {{ content }}
@@ -61,7 +82,8 @@
  
 <!--FOOTER-->
 
-        <footer class="footer">       
+
+        <!-- <footer class="footer">       
             <div class="content container row">
                 <div class="col">
                     <img src="/images/home.png" alt="home" class="img-fluid photoForFooter">
@@ -76,7 +98,7 @@
                     <a class="btn butt3 termsFooterButton" href="terms.html">Terms of Service</a>
                 </div>
             </div>
-        </footer>
+        </footer> -->
 
     
  <!-- Bootstrap bundle scripts -->
