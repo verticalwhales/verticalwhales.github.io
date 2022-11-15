@@ -63,12 +63,9 @@ html, body{background: var(--background-color);}
   width: 100%;
 }
 
-/* .sticky + .content {
-  padding-top: 60px;
-} */
-
 #logo {
   max-width: 50px;
+  align: center;
 }
 
 
@@ -365,27 +362,35 @@ html, body{background: var(--background-color);}
   font-size: 20px;
   margin-right: auto;
   margin-left: auto;
+  text-align: left;
+  padding: 50px 200px;
 }
 
 #first_a {
   border-radius: 10px;
-  width: 50%;
+  width: 80%;
+  margin-bottom: 40px;
 }
 
 #second_a {
   border-radius: 10px;
-  width: 90%;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 #third_a {
-  border-radius: 10px;
+  border-radius: 4%;
   width: 800px;
-  margin: 10px 0px;
+  margin: 40px 0px;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 h2 {
   font-family: moonblossom, sans-serif;
+  text-align: center;
+}
+
+#tag {
   text-align: center;
 }
 

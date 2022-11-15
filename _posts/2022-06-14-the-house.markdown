@@ -19,28 +19,26 @@ categories: stories
   <div class="col-md-6">
   <img src="/images/house.jpg" alt=" a three story house in the show at night" class="img-fluid" id="second_a">
   </div>
-  <div class="col">
+  <div class="col-md-6" style="padding-right: 95px !important;">
         I always imagined moving a bookshelf and finding a door that was just my size. I’d turn the nob, push the door open, and step into a secret world… In reality, I’d probably just get stuck in between the walls and find the mice that evaded my father’s traps. Even with his special secret bait, Tootsie rolls.
   </div>
 </div>
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4">
         On no Saturday in particular, you could smell pancakes being made from the kitchen. If you waited long enough, you could hear my mother walking up the steps to hand-deliver them with syrup already applied. She’d say “if you want more, you know where to find them”.
   </div>
-  <div class="col-md-6">
-        I’d usually just follow her down since it was more enjoyable to eat with the family than alone unless I was watching a captivating show. After school, I would make myself a snack and run up to my room where I’d find the latest episode of Heroes or How I Met Your Mother. I’d spend as little time as necessary
+  <div class="col-md-4">
+        I’d usually just follow her down since it was more enjoyable to eat with the family than alone unless I was watching a captivating show. After school, I would make myself a snack and run up to my room where I’d find the latest episode of Heroes or How I Met Your Mother. I’d spend as little time 
   </div>
-  <div class="col-md-6">
-        to finish my homework and then would doodle the night away or find ways to download music. I’d stay on the computer until 10pm, when my father would turn off the internet. Partly to communicate to my sister and me to go to bed, but mostly to save a little on electricity.
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-6"> 
-      <img src="/images/sister.jpg" alt="two children in a charboard box" class="img-fluid" id="third_a">
+  <div class="col-md-4">
+        as necessary to finish my homework and then would doodle the night away or find ways to download music. I’d stay on the computer until 10pm, when my father would turn off the internet. Partly to communicate to my sister and me to go to bed, but mostly to save a little on electricity.
   </div>
 </div>
 <div class="row">
-  <div class="col-md-6">
-        Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. Simple Pleasures.
-  </div>
+    <img src="/images/sister.jpg" alt="two children in a charboard box" class="img-fluid" id="third_a">
+
+</div>
+<div id="tag">
+      Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. <br>Simple Pleasures.
+
 </div>
