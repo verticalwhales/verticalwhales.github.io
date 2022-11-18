@@ -3,6 +3,7 @@ layout: post
 title:  "New Post"
 date:   2022-08-31
 categories: stories
+order: 2
 ---
 
 

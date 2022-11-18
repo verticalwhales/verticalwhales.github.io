@@ -129,12 +129,13 @@ html, body{background: var(--background-color);}
 .butt6:hover{
  background-color: var(--theme-5);
  color: var(--theme-1);
-} */
+}
 
 
 
 /*ABOUT*/
-.andy{
+.andy {
+  max-height: 10px;
    float: right;
    margin-top: 60px;
    max-height: 600px;
@@ -143,7 +144,7 @@ html, body{background: var(--background-color);}
    margin-bottom: 40px;
 }
 
-.aboutText{
+.abouttext{
   position: relative;
   margin: 60px 750px 60px 60px;
   text-align: left;
@@ -205,7 +206,7 @@ html, body{background: var(--background-color);}
 
 /* DRAWING/PHOTOS*/
 .column {
-  -ms-flex: 50%; /* IE 10 */
+  -ms-flex: 50%;
   flex: 50%;
   padding: 0 4px;
 }
@@ -252,7 +253,7 @@ ul {
   padding: 10px;
   margin: 4px 40px;
   background-color: var(--background-color);
-  font-family: calder-grit-shadow, sans-serif;
+  font-family: moonblossom, sans-serif;
   text-align: center;
 }
 
