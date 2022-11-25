@@ -40,5 +40,5 @@ order: 1
 
 </div>
 <div id="tag">
-      Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. <br>Simple Pleasures.
+      Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. <br>Simple Pleasures.<br>
 </div>

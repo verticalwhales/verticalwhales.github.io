@@ -135,32 +135,24 @@ html, body{background: var(--background-color);}
 
 /*ABOUT*/
 .andy {
-  max-height: 10px;
-   float: right;
-   margin-top: 60px;
-   max-height: 600px;
    border-radius: 40px;
-   margin-right: 60px;
    margin-bottom: 40px;
 }
 
 .abouttext{
-  position: relative;
-  margin: 60px 750px 60px 60px;
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
   border-style: none;
   background-color: var(--theme-1);
   color: var(--pandas);
   padding: 40px;
   border-radius: 40px;
   font-family: apparat, sans-serif;
+  margin-bottom: 40px;
 }
 
 /*RESUME*/
 .resumeText{
-  position: relative;
-  margin: 60px 920px 60px 60px;
   text-align: left;
   font-size: 18px;
   border-style: none;
@@ -169,23 +161,17 @@ html, body{background: var(--background-color);}
   padding: 40px;
   border-radius: 40px;
   font-family: apparat, sans-serif;
+  margin-bottom: 40px;
 }
 
 .eni {
-  float: right;
-  margin-top: 60px;
-  margin-right: 60px;
-  max-height: 1100px;
   border-radius: 40px;
   margin-bottom: 40px;
 }
 
-
 /*TERMS OF AGREEMENT*/
 
 .termsText{
-  position: relative;
-  margin: 60px 900px 60px 60px;
   text-align: left;
   font-size: 18px;
   border-style: none;
@@ -193,15 +179,13 @@ html, body{background: var(--background-color);}
   color: var(--theme-2-1);
   padding: 40px;
   border-radius: 40px;
-  
+  font-family: apparat, sans-serif;
+  margin-bottom: 40px;
 }
 
 .terms {
-  float: right;
-  margin-top: 60px;
-  margin-right: 60px;
-  max-height: 1000px;
   border-radius: 40px;
+  margin-bottom: 40px;
 }
 
 /* DRAWING/PHOTOS*/
@@ -347,7 +331,7 @@ ul {
   margin-right: auto;
   margin-left: auto;
   text-align: left;
-  padding: 50px 200px;
+  max-width: 930px;
 }
 
 #first_a {
@@ -380,7 +364,7 @@ h2 {
 
 /*FOOTER*/
 
-.col {
+.colw {
   width: 32%;
   border: none;
   background: var(--title-color);

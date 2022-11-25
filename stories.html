@@ -3,16 +3,47 @@ layout: default
 ---
 <html>
 
-
-  <ul>
-    {% for post in site.posts %}
+  
+    <!-- {% for post in site.posts %}
     <div class="container text-center">
+
       <div class="row">
         <div class="col posts_one posts_one_one">
           <a class="btn writting_padding" href="{{ post.url }}">{{ post.title }}</a>
         </div>
         <div class="col posts_one posts_one_two">
-          <a class="btn writting_padding" href="{{ post.url }}">{{ post.title }}</a></li>
+          <a class="btn writting_padding" href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col posts_two posts_two_one">
+          <a class="btn writting_padding" href=""></a>
+        </div>
+        <div class="col posts_two posts_two_two">
+          <a class="btn writting_padding" href=""></a>
+        </div>
+        <div class="col posts_two posts_two_three">
+          <a class="btn writting_padding" href=""></a>
+        </div>
+      </div>
+      
+    </div>
+    {% endfor %} -->
+  
+
+  <ul>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col posts_one posts_one_one">
+         
+          <a class="btn writting_padding" href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a>
+          
+        </div>
+        <div class="col posts_one posts_one_two">
+          
+            <a class="btn writting_padding" href="{{ site.posts[1].url }}">{{ site.posts[1].title }}</a></li>
+      
         </div>
       </div>
       <div class="row">
@@ -27,8 +58,37 @@ layout: default
         </div>
       </div>
     </div>
-    {% endfor %}
   </ul>
+
+  <!-- <ul>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col posts_one posts_one_one">
+          {% assign thehouse = site.posts | where:"title", "The House" %}
+          {% for post in thehouse %}
+            <a class="btn writting_padding" href="{{ post.url }}">{{ post.title }}</a>
+          {% endfor %}
+        </div>
+        <div class="col posts_one posts_one_two">
+          {% assign newpost = site.posts | where:"title", "New Post" %}
+          {% for post in newpost %}
+            <a class="btn writting_padding" href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col posts_two posts_two_one">
+          <a class="btn writting_padding" href=""></a>
+        </div>
+        <div class="col posts_two posts_two_two">
+          <a class="btn writting_padding" href=""></a>
+        </div>
+        <div class="col posts_two posts_two_three">
+          <a class="btn writting_padding" href=""></a>
+        </div>
+      </div>
+    </div>
+  </ul> -->
 
  <!-- <div class="container text-center">
     <div class="row">
