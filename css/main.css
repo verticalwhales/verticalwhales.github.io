@@ -150,11 +150,11 @@ html, body{background: var(--background-color);}
 /*RESUME*/
 .resumeText{
   text-align: left;
-  font-size: 18px;
+  font-size: 22px;
   border-style: none;
   background-color: var(--pandas);
   color: var(--title-color-text);
-  padding: 40px;
+  padding: 50px 40px 50px 100px;
   border-radius: 40px;
   font-family: apparat, sans-serif;
   margin-bottom: 40px;
@@ -366,6 +366,7 @@ h2 {
   background: var(--title-color);
   padding: 20px;
   font-family: apparat, sans-serif;
+  color: var(--nav-text);
 }
 
 .footer_col {
