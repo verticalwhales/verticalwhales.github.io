@@ -137,7 +137,7 @@ html, body{background: var(--background-color);}
 
 .abouttext{
   text-align: left;
-  font-size: 18px;
+  font-size: 20px;
   border-style: none;
   background-color: var(--theme-1);
   color: var(--pandas);
@@ -149,12 +149,12 @@ html, body{background: var(--background-color);}
 
 /*RESUME*/
 .resumeText{
-  text-align: left;
-  font-size: 22px;
+  text-align: center;
+  font-size: 18px;
   border-style: none;
   background-color: var(--pandas);
   color: var(--title-color-text);
-  padding: 50px 40px 50px 100px;
+  padding: 50px 40px 50px 40px;
   border-radius: 40px;
   font-family: apparat, sans-serif;
   margin-bottom: 40px;
