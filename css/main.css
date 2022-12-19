@@ -26,6 +26,10 @@ body {
 
 html, body{background: var(--background-color);}
 
+img {
+  pointer-events: none;
+}
+
 /*LANDING PAGE*/
 .bunPic {
   margin: auto;
@@ -377,14 +381,17 @@ h2 {
   width: 11rem;
 }
 
-.termsFooterButton{
+.termsFooterButton {
   background-color: var(--title-color);
   margin-top: 70px;
  }
 
 #turntable {
   transition: transform .7s ease-in-out;
+  pointer-events: auto;
 }
+
 #turntable:hover {
   transform: rotate(360deg);
+  pointer-events: auto;
 }

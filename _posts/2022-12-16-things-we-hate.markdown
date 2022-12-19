@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "New Post"
-date:   2022-08-31
+title:  "Things We Hate"
+date:   2022-12-16
 categories: stories
 
 ---
