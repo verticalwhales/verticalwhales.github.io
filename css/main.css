@@ -328,6 +328,7 @@ ul {
 #toast {
   font-family: apparat, sans-serif;
   font-size: 20px;
+  padding-top: 50px;
   margin-right: auto;
   margin-left: auto;
   text-align: left;
@@ -362,6 +363,20 @@ h2 {
   text-align: center;
 }
 
+.haiku{
+  border-color: var(--nav-text);
+  border-width: 2px;
+  border-style: solid;
+  opacity: 50%;
+}
+
+#joke{
+  text-align: left;
+}
+
+#queen{
+  text-align: right;
+}
 /*FOOTER*/
 
 .colw {
