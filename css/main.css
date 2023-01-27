@@ -363,12 +363,6 @@ h2 {
   text-align: center;
 }
 
-.haiku{
-  border-color: var(--nav-text);
-  border-width: 2px;
-  border-style: solid;
-  opacity: 50%;
-}
 
 #joke{
   text-align: left;
