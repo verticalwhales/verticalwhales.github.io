@@ -371,6 +371,10 @@ h2 {
 #queen{
   text-align: right;
 }
+
+#king{
+  text-align: center;
+}
 /*FOOTER*/
 
 .colw {
