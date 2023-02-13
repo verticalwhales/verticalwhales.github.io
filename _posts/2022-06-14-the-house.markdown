@@ -37,8 +37,5 @@ order: 1
 </div>
 <div class="row">
     <img src="/images/sister.jpg" alt="two children in a charboard box" class="img-fluid" id="third_a">
-
-</div>
-<div id="tag">
-      Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. <br>Simple Pleasures.<br>
+    <p id="tag">Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. <br>Simple Pleasures.<br><br></p>
 </div>

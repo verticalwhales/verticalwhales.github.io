@@ -31,12 +31,6 @@ img {
 }
 
 /*LANDING PAGE*/
-.bunPic {
-  margin: auto;
-  border-radius: 100px;
-  padding: 50px;
-}
-
 .landing {
   text-align: left;
   margin-left: 5rem;
@@ -44,9 +38,22 @@ img {
 }
 
 .curentMusic {
-  margin-left: 5rem;
+  margin: 4rem;
+}
+
+h4 {
+  font-family: chainprinter, sans-serif;
+  color: rgb(185, 182, 182);
+  font-size: 1rem;
+}
+
+.feelingTextPro {
+  color: #8a8a8a;
+}
+
+.feelingText {
+  color: #8a8a8a;
   text-align: left;
-  padding: 3rem 0rem;
 }
 
 /*NAVBAR*/
@@ -347,6 +354,10 @@ ul {
   max-width: 930px;
 }
 
+.photoRadius {
+  border-radius: 10px;
+}
+
 #first_a {
   border-radius: 10px;
   width: 80%;
@@ -361,7 +372,7 @@ ul {
 #third_a {
   border-radius: 4%;
   width: 800px;
-  margin: 40px 0px;
+  margin: 20px 0px;
   margin-left: auto;
   margin-right:auto;
 }
@@ -373,6 +384,8 @@ h2 {
 
 #tag {
   text-align: center;
+  color:rgb(116, 112, 112);
+  font-size: .8rem;
 }
 
 
