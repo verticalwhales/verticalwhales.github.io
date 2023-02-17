@@ -11,9 +11,6 @@
         <link rel="stylesheet" href="https://use.typekit.net/zny1plw.css">
 
 <!-- NAVBAR -->
-
-
-
     </head>
     <body>
       <a class="butt1 home_btn btn clickHome header" href="/index.html"><h1>Use Your Blinker</h1></a>
@@ -46,41 +43,9 @@
             </div>
           </nav>
 
-<!--MOTION FOR BUTTONS-->
             {{ content }}
-        
-        <script>
-        var header = document.getElementById("myHeader");
-        var btns = header.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function() {
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
-          });
-        }
-        </script>
 
-<!--MOTION FOR NAV STICKY BAR--> 
-<script>
-    window.onscroll = function() {myFunction()};
-    
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-    </script>
-
- 
- 
 <!--FOOTER-->
-
     <div class="row">
       <div class="col colw">
         <img src="/images/home.png" alt="home" class="img-fluid photoForFooter" id="turntable">
@@ -97,7 +62,9 @@
       </div>
     </div>
 
-    
+<!--MOTION FOR NAV STICKY BAR/ BUTTONS--> 
+    <script src="navbar.js"></script>
+
  <!-- Bootstrap bundle scripts -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
