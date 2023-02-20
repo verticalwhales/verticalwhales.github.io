@@ -1,0 +1,18 @@
+/*RESUME*/
+.resumeText{
+    text-align: center;
+    font-size: 18px;
+    border-style: none;
+    background-color: var(--pandas);
+    color: var(--title-color-text);
+    padding: 50px 40px 50px 40px;
+    border-radius: 40px;
+    font-family: apparat, sans-serif;
+    margin-bottom: 40px;
+  }
+  
+  .eni {
+    border-radius: 40px;
+    margin-bottom: 40px;
+  }
+  

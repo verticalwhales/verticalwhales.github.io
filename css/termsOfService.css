@@ -1,0 +1,17 @@
+  /*TERMS OF AGREEMENT*/
+.termsText{
+  text-align: left;
+  font-size: 18px;
+  border-style: none;
+  background-color: var(--theme-4);
+  color: var(--theme-2-1);
+  padding: 40px;
+  border-radius: 40px;
+  font-family: apparat, sans-serif;
+  margin-bottom: 40px;
+}
+
+.terms {
+  border-radius: 40px;
+  margin-bottom: 40px;
+}
