@@ -2,7 +2,7 @@
 layout: post
 title:  "The House"
 date:   2022-06-15
-categories: stories
+categories: tails
 order: 1
 ---
 

@@ -123,10 +123,13 @@ img {
 .colw {
   width: 32%;
   border: none;
-  background: var(--title-color);
   padding: 20px;
   font-family: apparat, sans-serif;
   color: var(--nav-text);
+}
+
+.footerColor {
+  background: var(--title-color);
 }
 
 .footer_col {
@@ -142,6 +145,7 @@ img {
   margin-top: 70px;
  }
 
+ /* HEXSIGN ROTATE */
 #turntable {
   transition: transform .7s ease-in-out;
   pointer-events: auto;

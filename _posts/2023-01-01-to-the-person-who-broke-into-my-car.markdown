@@ -2,7 +2,7 @@
 layout: post
 title:  "To The Person Who Broke Into My Car"
 date:   2023-01-01
-categories: stories
+categories: tails
 
 ---
 

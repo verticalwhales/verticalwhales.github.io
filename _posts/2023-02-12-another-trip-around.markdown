@@ -2,7 +2,7 @@
 layout: post
 title:  "Another Trip Around"
 date:   2023-02-12
-categories: stories
+categories: tails
 
 ---
 <head>
