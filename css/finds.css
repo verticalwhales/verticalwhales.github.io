@@ -1,4 +1,5 @@
 .box {
+    cursor: pointer;
     width: 13rem;
     height: 13rem;
     border-radius: 8%;
@@ -6,9 +7,8 @@
     margin-right: auto;
     border: none;
     transition-duration: 0.2s;
-    display: flex;
-    align-items: center
-
+    align-items: center;
+    padding: 0px;
 }
 
 .snug {
@@ -16,12 +16,21 @@
 }
 
 .findButts {
+    width: 100%;
+    height: 100%;
     font-family: chainprinter, sans-serif;
-    color: rgb(103, 100, 100);
+    color: rgb(118, 115, 115);
     font-size: 1.5rem;
     text-align: center;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
 }
+
 
 .small {
     font-size: 1rem;
 }
+
