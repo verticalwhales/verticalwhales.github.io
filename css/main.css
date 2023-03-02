@@ -1,14 +1,13 @@
 /* EVERYTHING*/
 :root{
-  --title-color: #008B99;
+  --title-color: #7FACB2;
   --title-color-text: #F5D29C;
-  --theme-1: #F8B195;
-  --theme-2: #F67280;
-  --theme-2-1: #EDBFD9;
-  --theme-3: #C06C84;
-  --theme-4: #6C5B7B;
-  --theme-5: #355C7D;
-  --pandas: #27445e;
+  --theme-1: #E0504C;
+  --theme-2: #FFCE31;
+  --theme-3: #F09D75;
+  --theme-4: #89A257;
+  --theme-5: #1BB2A6;
+  --theme-6: #A23222;
   --background-color: #FFF;
   --nav-text: rgb(0, 0, 0);
 }
@@ -100,23 +99,28 @@ img {
 
 .butt2:hover{
  background-color: var(--theme-1);
- color: var(--theme-5);
+ color: var(--background-color);
 }
 .butt3:hover{
  background-color: var(--theme-2);
- color: var(--theme-4);
+ color: var(--background-color);
 }
 .butt4:hover{
  background-color: var(--theme-3);
- color: var(--theme-2-1);
+ color: var(--background-color);
 }
 .butt5:hover{
  background-color: var(--theme-4);
- color: var(--theme-2);
+ color: var(--background-color);
 }
 .butt6:hover{
  background-color: var(--theme-5);
- color: var(--theme-1);
+ color: var(--background-color);
+}
+
+.butt7:hover{
+  background-color: var(--theme-6);
+  color: var(--background-color);
 }
 
 /*FOOTER*/
@@ -129,7 +133,7 @@ img {
 }
 
 .footerColor {
-  background: var(--title-color);
+  background-color: #7FACB2;
 }
 
 .footer_col {
@@ -141,7 +145,6 @@ img {
 }
 
 .termsFooterButton {
-  background-color: var(--title-color);
   margin-top: 70px;
  }
 
