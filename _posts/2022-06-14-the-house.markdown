@@ -6,7 +6,6 @@ categories: tails
 order: 1
 ---
 
-
 <div class="row">
   <div class="col-md-6">
     <h2>The House</h2><br>
@@ -39,3 +38,4 @@ order: 1
     <img src="/images/sister.jpg" alt="two children in a charboard box" class="img-fluid" id="third_a">
     <p id="tag">Myself in my all-time FAVORITE cat sweater and my sister Anna having the best time in a box. <br>Simple Pleasures.<br><br></p>
 </div>
+<div class="date"><i>June 14th, 2022</i></div>

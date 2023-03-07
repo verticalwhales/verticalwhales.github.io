@@ -10,6 +10,8 @@
   --theme-6: #A23222;
   --background-color: #FFF;
   --nav-text: rgb(0, 0, 0);
+  --other-text: #212529;
+  --date: #969494;
 }
 
 html {

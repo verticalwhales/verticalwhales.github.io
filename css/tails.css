@@ -149,3 +149,8 @@ ul {
   #king{
     text-align: center;
   }
+
+  .date {
+    color: var(--date);
+    font-size: 15px;
+  }

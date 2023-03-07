@@ -29,5 +29,6 @@ categories: tails
       <p id="queen">
       Still annoying AF.
       </p>
+      <div class="date"><i>January 1st, 2023</i></div>
 </div>
 
