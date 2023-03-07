@@ -1,14 +1,12 @@
 .box {
     cursor: pointer;
-    width: 13rem;
-    height: 13rem;
-    border-radius: 8%;
+    border-radius: .7rem;
     margin-left: auto;
     margin-right: auto;
     border: none;
     transition-duration: 0.1s;
-    align-items: center;
     padding: 0px;
+    width: unset;
 }
 
 .snug {
@@ -16,17 +14,11 @@
 }
 
 .findButts {
-    width: 100%;
-    height: 100%;
     font-family: chainprinter, sans-serif;
     color: rgb(118, 115, 115);
     font-size: 1.5rem;
-    text-align: center;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    position: relative;
+
+    padding: 3rem 3rem;
 }
 
 
