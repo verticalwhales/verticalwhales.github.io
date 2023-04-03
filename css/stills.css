@@ -5,18 +5,14 @@
     padding: 0 4px;
   }
   
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-  }
-  
-  .writings{
+
+  /* .writings{
     float: left;
     width: 300px;
     height:300px;
     border-radius: 50%;
     object-fit:cover;
-  }
+  } */
   
   .potato{
     margin: 20px 50px;
@@ -26,12 +22,16 @@
     font-size: 1.75em;
   }
   
-  .content {
+  /* .content {
     padding: 15px 0;
-  }
+  } */
   
-  #info {
+  /* #info {
     font-size: .75em;
     padding:0 0 10px 0;
     font-family: calder-grit-shadow, sans-serif;
+  } */
+
+  .spacing img {
+    padding-bottom: 24px;
   }
