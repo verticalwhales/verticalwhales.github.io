@@ -138,7 +138,7 @@ ul {
   }
   
   
-  #joke{
+  /* #joke{
     text-align: left;
   }
   
@@ -148,7 +148,7 @@ ul {
   
   #king{
     text-align: center;
-  }
+  } */
 
   .date {
     color: var(--date);
